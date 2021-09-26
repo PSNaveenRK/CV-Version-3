@@ -1,0 +1,575 @@
+/* Home Page */
+
+#Home_Page_Body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color: #E4F9F5;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 3.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  line-height: 0.4;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  line-height: 1.5;
+}
+
+hr {
+  border: dotted #11999E 6px; /*EAF6F6 */
+  border-bottom: none;
+  width: 8%;
+  margin: 70px auto;
+}
+
+.company{
+    text-decoration:inherit;
+    font-weight: 600;
+}
+
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 5px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #21094E;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 0px;
+}
+
+.middle-container {
+  background-color: #F7F7EE;
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.mountain{
+  position:relative;
+  right: 0px;
+  top: 0px;
+  width: 100%;
+  height: 500px;
+}
+
+.Degree {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.field {
+  text-decoration:inherit;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.top-cloud {
+  position:absolute;
+  right: 200px;
+  top: 40px;
+}
+
+.profile-pic{
+    position: absolute;
+    left:40px;
+    top:400px;
+    border-radius: 100%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 50px;
+  bottom: 150px;
+}
+
+.Mech_Engg-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.Ignou-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.whatsapp{
+  padding-top: 30px;
+  width: 25%;
+  float: left;
+  margin-left: 30px;
+}
+
+.mobile{
+  background: #A3DDCB;
+  position: relative;
+  padding: 30px;
+}
+
+.mobile1{
+  position: absolute;
+  height: auto;
+  width: 20%;
+  float: left;
+  margin-top: 80px;
+  margin-left: 300px;
+}
+
+.mobile1:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.mobile2{
+  position: absolute;
+  height: auto;
+  width: 20%;
+  float: left;
+  margin-left: 300px;
+  margin-top: 150px;
+}
+
+.mobile2:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.gmail-icon{
+  padding-top: 30px;
+  width: 25%;
+  float: left;
+  margin-left: 30px;
+}
+
+.gmail-id{
+  background: #74C7B8;
+}
+
+#mail-id{
+  position: relative;
+  height: auto;
+  width: 20%;
+  float: left;
+  margin-left: 30px;
+  margin-top: 150px;
+}
+
+#mail-id:hover{
+  color: #132743;
+}
+
+.my_score_card{
+background: #A3D2CA;
+}
+
+#About{
+  position: absolute;
+  top: 70px;
+  left: 70px;
+}
+
+#Education{
+  position: absolute;
+  top: 70px;
+  left: 140px;
+}
+
+#Skills{
+  position: absolute;
+  top: 70px;
+  left: 240px;
+}
+
+#Projects{
+  position: absolute;
+  top: 70px;
+  left: 300px;
+}
+
+/* --------------------------------------------------------------------------------------------------------- */
+/* Educational_Details WebPage */
+
+#Educational_Details_Page_Body{
+  background-color: #FDEFEF;
+  /* background-color: rgba(59,130,246,0.5); */
+}
+
+.Education_top_container {
+  /* background-color: #EB92BE; */
+  background-color: #E4BAD4; /*rgba(254,226,226) */
+  margin: 10px 50px 0px 50px;
+  padding: 50px 0 20px 0;
+}
+
+#Academic_Chronicles-img{
+  position: absolute;
+  top: 30px;
+  left: 450px;
+  width: 30px;
+}
+
+#Academic_Chronicles{
+  position: absolute;
+  top: 30px;
+  left: 500px;
+  font-size: 25px;
+  font-style: italic;
+  text-decoration: inherit;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  color: #150E56;
+}
+
+.MBA_container{
+  background-color: #FFE3E3; /*rgba(254,226,226) */
+  margin: 15px 700px 0px 90px;
+  padding: 50px 0 300px 0;
+  border-radius: 5%;
+}
+
+.Ignoulogo-img{
+  position: absolute;
+  top: 150px;
+  left: 290px;
+  width: 100px;
+  border-radius: 50%;
+  box-shadow: var(--tw-ring-offset-shadow,0 0 transparent),var(--tw-ring-shadow,0 0 transparent),var(--tw-shadow);
+}
+
+.shadow-xl{
+  box-shadow: var(--tw-ring-offset-shadow,0 0 transparent),var(--tw-ring-shadow,0 0 transparent),var(--tw-shadow);
+}
+.shadow-xl {
+    --tw-shadow: 0 20px 25px -5px rgba(0,0,0,0.1),0 10px 10px -5px rgba(0,0,0,0.04);
+}
+
+.MBA{
+  position: relative;
+  top: 120px;
+  left: 115px;
+}
+
+.MBA_tagline{
+  position: relative;
+  top: 120px;
+  left: 60px;
+
+  font-family: 'Montserrat', sans-serif;
+}
+
+.BE_container{
+  background-color: #FFE3E3;
+  margin: -475px 100px 0px 750px;
+  padding: 50px 0 275px 100px;
+  border-radius: 5%;
+}
+
+.BE{
+  position: relative;
+  top: 120px;
+  left: 40px;
+}
+
+.BE_tagline{
+  position: relative;
+  padding-right: 10px;
+  top: 120px;
+  left: -25px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.KLNCE_logo{
+    position: absolute;
+    top: 140px;
+    left: 965px;
+    width: 100px;
+    border-radius: 10%;
+    box-shadow: var(--tw-ring-offset-shadow,0 0 transparent),var(--tw-ring-shadow,0 0 transparent),var(--tw-shadow);
+}
+
+.HSC_container{
+  background-color: #FFE3E3; /*rgba(254,226,226) */
+  margin: 15px 700px 0px 90px;
+  padding: 50px 0 300px 0;
+  border-radius: 5%;
+}
+
+.HSC{
+  position: relative;
+  top: 70px;
+  left: 200px;
+}
+
+.HSC_tagline{
+  position: relative;
+  padding-right: 10px;
+  top: 90px;
+  left: 50px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.Mepco_logo{
+    position: relative;
+    top: 40px;
+    left: 190px;
+    width: 180px;
+    border-radius: 10%;
+    box-shadow: var(--tw-ring-offset-shadow,0 0 transparent),var(--tw-ring-shadow,0 0 transparent),var(--tw-shadow);
+}
+
+.SSLC_container{
+  background-color: #FFE3E3;
+  margin: -580px 100px 0px 750px;
+  padding: 0px 0 275px 100px;
+  border-radius: 5%;
+}
+
+.SSLC{
+  position: relative;
+  top: 120px;
+  left: 150px;
+}
+
+.SSLC_tagline{
+  position: relative;
+  padding-right: 10px;
+  top: 120px;
+  left: 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.Mepco2_logo{
+    position: relative;
+    top: 90px;
+    left: 90px;
+    width: 180px;
+    border-radius: 10%;
+    box-shadow: var(--tw-ring-offset-shadow,0 0 transparent),var(--tw-ring-shadow,0 0 transparent),var(--tw-shadow);
+}
+
+/* --------------------------------------------------------------------------------------------------------- */
+/* Skills WebPage */
+#Skills_spacing{
+  border: dotted #11999E 4px; /*EAF6F6 */
+  border-bottom: none;
+  width: 8%;
+  margin: 12px auto;
+}
+
+.Skills{
+  width:100%;
+}
+
+#skill_text{
+  margin-top: 70px;
+  margin-left: 70px;
+  color:rgba(30,58,138);
+}
+
+.Skills_top_container{
+  margin: -10px -10px -10px -10px;
+  padding: 0px 0 0px 0;
+}
+
+.Skills_topleft_container1{
+  background-color: #DBEDF3;
+  position: absolute;
+  margin: 30px 0px 0px 30px;
+  border-radius: 1%;
+}
+
+.Selenium_java_img{
+  margin-left: 10px;
+  margin-top: 20px;
+  border-radius: 5%
+}
+
+.Selenium_java_tagline{
+  float:right;
+  padding-left: 15px;
+  margin-right: 100px;
+}
+
+.UFT_img{
+  margin-left: 10px;
+  height: 100px;
+  margin-top: 30px;
+  border-radius: 5%
+}
+
+.UFT_tagline{
+  float:right;
+  padding-left: 15px;
+  margin-right: 100px;
+}
+
+.VBA_img{
+  margin-left: 10px;
+  margin-top: 30px;
+  border-radius: 5%;
+}
+
+.VBA_tagline{
+  float:right;
+  padding-left: 15px;
+  margin-right: 100px;
+}
+
+.SQL_img{
+  margin-left: 15px;
+}
+
+.SQL_tagline{
+  float:right;
+  padding-left: 15px;
+  margin-right: 100px;
+}
+
+.html_css_img{
+  margin-left: 10px;
+  margin-top: 30px;
+  border-radius: 5%;
+}
+
+.html_css_tagline{
+  float:right;
+  padding-left: 15px;
+  margin-right: 100px;
+}
+.js_img{
+  margin-left: 10px;
+  border-radius: 5%;
+}
+
+.javascript_tagline{
+  float:right;
+  padding-left: 15px;
+  margin-right: 100px;
+}
+
+.VBScript_img{
+  margin-left: 10px;
+  margin-top: 30px;
+  border-radius: 5%;
+}
+
+.VBScript_tagline{
+  float:right;
+  padding-left: 15px;
+  margin-right: 100px;
+}
+
+.C_Cpp_img{
+  margin-left: 10px;
+  margin-top: 30px;
+  border-radius: 5%;
+}
+
+.c_cpp_tagline{
+  float:right;
+  padding-left: 15px;
+  margin-right: 100px;
+}
+
+.Python_img{
+  margin-left: 10px;
+  margin-top: 30px;
+  border-radius: 5%;
+}
+
+.python_tagline{
+  float:right;
+  padding-left: 15px;
+  margin-right: 100px;
+}
+
+.Skills_topleft_container2{
+  background-color: #F5EDED;
+  position: absolute;
+  margin: 1550px 0px 0px 30px;
+  border-radius: 1%;
+}
+
+
+.CADsoftware_img{
+  margin-left: 10px;
+  margin-top: 30px;
+  border-radius: 5%;
+}
+
+.CADsoftware_tagline{
+  float:right;
+  padding-left: 15px;
+  margin-right: 100px;
+}
